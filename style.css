@@ -1,0 +1,142 @@
+body{ 
+  margin: 0px auto;
+  width: 800px;
+  height: 100%;
+}
+
+header{
+  background: #005d61;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section{
+  width: 800px;
+  max-height: 500px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+h1, h2, blockquote{
+  font-family: 'Abril fatface', sans-serif;
+  color: #00578a;
+}
+
+h1{
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  bottom: -30px;
+  left: 50px;
+  line-height: 1;
+  margin-left: 0px auto;
+}
+
+h2{
+  font-size: 32px;
+  position: absolute;
+  bottom: 120px;
+  left: 50px;
+}
+
+pre{
+  width: 480px;
+  height: 450px;
+  margin: 0px;
+  margin-bottom: 100px;
+  position: relative;
+} 
+
+pre::before{
+  content: "";
+  background: url("https://celebsline.com/wp-content/uploads/2019/09/Hayden-Christensen-Biography.jpg") no-repeat; 
+  opacity: 0.7;
+  background-size: cover;
+  background-clip: border-box;
+  background-position: 44%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  margin-bottom: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+article{
+  font-size: 20px;
+  max-width: 600px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+h3, h4, p, ul, article{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  color: #00578a;
+  }
+
+h5{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #00578a;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 0px;
+ }
+
+h4{
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0px;
+  }
+
+p, ul{
+  font-size: 14px;
+}
+
+.bigger{
+  font-size: 20px;
+}
+
+blockquote{
+  color: white;
+  background: #005d61;
+  font-size: 44px;
+  align-items: flex-start; 
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 50px 50px;
+  position: relative;
+  width: 400px;
+  height: 100%;
+  flex-grow: 1;
+}
+
+div{
+  flex-grow: 3;
+  width: 650px;
+  padding: 30px;
+}
+
+blockquote::before {
+  content: '“';
+  color: white;
+  font-size: 130px;
+  position: absolute;
+  top: -35px;
+  left: 0px;
+  }
